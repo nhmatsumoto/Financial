@@ -7,9 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\nhmatsumoto.financial.domain\NHMatsumoto.Financial.Domain.csproj" />
-    <ProjectReference Include="..\nhmatsumoto.financial.infrastructure.CrossCutting.IoC\NHMatsumoto.Financial.Infrastructure.CrossCutting.IoC.csproj" />
-    <ProjectReference Include="..\nhmatsumoto.financial.infrastructure.database\NHMatsumoto.Financial.Infrastructure.Database.csproj" />
     <ProjectReference Include="..\nhmatsumoto.financial.services\NHMatsumoto.Financial.Services.csproj" />
   </ItemGroup>
 

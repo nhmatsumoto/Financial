@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NHMatsumoto.Financial.Application\NHMatsumoto.Financial.Application.csproj" />
     <ProjectReference Include="..\NHMatsumoto.Financial.Infrastructure.Database\NHMatsumoto.Financial.Infrastructure.Database.csproj" />
     <ProjectReference Include="..\NHMatsumoto.Financial.Services\NHMatsumoto.Financial.Services.csproj" />
   </ItemGroup>

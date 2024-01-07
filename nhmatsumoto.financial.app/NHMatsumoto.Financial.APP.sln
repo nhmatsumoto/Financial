@@ -19,13 +19,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Pre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{316FB65E-E629-4460-AE9B-7560A7A0A44E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Services", "3 - Services", "{959075FC-EB25-4BF1-9358-8ADDD69F6564}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Services", "6 - Services", "{959075FC-EB25-4BF1-9358-8ADDD69F6564}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Database", "4 - Database", "{3195AB1B-77EF-411E-ABBC-DBF479220F75}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - CrossCuttingIoC", "5 - CrossCuttingIoC", "{7F562B45-06EF-4412-8B0C-E302561AEFBB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Domain", "0 - Domain", "{E4EBA9BC-E9ED-4169-A683-3276D73C5359}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{E4EBA9BC-E9ED-4169-A683-3276D73C5359}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
