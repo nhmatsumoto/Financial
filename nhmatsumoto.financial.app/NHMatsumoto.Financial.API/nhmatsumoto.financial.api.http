@@ -1,0 +1,6 @@
+@nhmatsumoto.financial.api_HostAddress = http://localhost:5282
+
+GET {{nhmatsumoto.financial.api_HostAddress}}/admin/
+Accept: application/json
+
+###
