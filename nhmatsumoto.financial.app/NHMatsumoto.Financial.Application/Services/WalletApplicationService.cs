@@ -9,9 +9,10 @@ namespace NHMatsumoto.Financial.Application.Services
         private readonly IWalletService _walletService;
         private readonly IMapper _mapper;
 
-        public WalletApplicationService(IWalletService walletService)
+        public WalletApplicationService(IWalletService walletService, IMapper mapper)
         {
-            
+            _walletService = walletService;
+            _mapper = mapper;
         }
     }
 }

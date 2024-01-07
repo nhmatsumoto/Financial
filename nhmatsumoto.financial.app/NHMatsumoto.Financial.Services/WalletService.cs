@@ -70,7 +70,5 @@ namespace nhmatsumoto.financial.services
             return _walletRepository.GetByExpression(predicate).ToList();
         }
 
-        
-
     }
 }

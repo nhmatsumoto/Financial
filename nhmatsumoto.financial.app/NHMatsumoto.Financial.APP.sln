@@ -15,6 +15,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NHMatsumoto.Financial.Servi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NHMatsumoto.Financial.Application", "NHMatsumoto.Financial.Application\NHMatsumoto.Financial.Application.csproj", "{79425B97-2D80-4104-B788-9D4142A1B0FA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{A599B75D-FCEE-4A98-9C16-1B29CFF4B7B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{316FB65E-E629-4460-AE9B-7560A7A0A44E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Services", "3 - Services", "{959075FC-EB25-4BF1-9358-8ADDD69F6564}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Database", "4 - Database", "{3195AB1B-77EF-411E-ABBC-DBF479220F75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - CrossCuttingIoC", "5 - CrossCuttingIoC", "{7F562B45-06EF-4412-8B0C-E302561AEFBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Domain", "0 - Domain", "{E4EBA9BC-E9ED-4169-A683-3276D73C5359}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +60,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1041F4FD-E717-43EC-87A2-70E7C14C5166} = {A599B75D-FCEE-4A98-9C16-1B29CFF4B7B4}
+		{E40E2AF6-DD19-44FE-BEF8-B837FD9FABA1} = {3195AB1B-77EF-411E-ABBC-DBF479220F75}
+		{A6DB791E-161E-44B3-AB33-61CB3364D7C0} = {7F562B45-06EF-4412-8B0C-E302561AEFBB}
+		{1E148C00-2147-4F55-A4A5-3132C82E3E87} = {E4EBA9BC-E9ED-4169-A683-3276D73C5359}
+		{D44C418B-8165-4C34-8D6E-C494624E37A4} = {959075FC-EB25-4BF1-9358-8ADDD69F6564}
+		{79425B97-2D80-4104-B788-9D4142A1B0FA} = {316FB65E-E629-4460-AE9B-7560A7A0A44E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15821749-DEF4-47E4-A8F3-BE7EF0B80122}

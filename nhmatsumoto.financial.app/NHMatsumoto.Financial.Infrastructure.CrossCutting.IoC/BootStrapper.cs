@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using nhmatsumoto.financial.domain.Entities;
@@ -27,6 +28,14 @@ namespace nhmatsumoto.financial.infrastructure.CrossCutting.IoC
 
             services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
             services.AddTransient<IWalletService, WalletService>();
+
+            var config = new MapperConfiguration(cfg => {
+
+                cfg.AddProfile<WalletProfile>();
+            });
+
+            IMapper mapper = config.CreateMapper();
+            services.AddSingleton(mapper);
 
         }
     }
